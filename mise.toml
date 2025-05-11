@@ -1,0 +1,4 @@
+[env]
+MACOSX_DEPLOYMENT_TARGET="{{ exec(command='sw_vers -productVersion') }}" # Allows for compiling Postgresql > 13.16
+POSTGRES_EXTRA_CONFIGURE_OPTIONS = '--with-libxml'
+OBJC_DISABLE_INITIALIZE_FORK_SAFETY = 'YES'
