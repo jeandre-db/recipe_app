@@ -1,0 +1,4 @@
+{
+  "rubyLsp.rubyVersionManager": "custom",
+  "rubyLsp.customRubyCommand": "eval \"$(mise env -s zsh)\""
+}
