@@ -1,4 +1,8 @@
 {
   "rubyLsp.rubyVersionManager": "custom",
-  "rubyLsp.customRubyCommand": "eval \"$(mise env -s zsh)\""
+  "rubyLsp.customRubyCommand": "eval \"$(mise env -s zsh)\"",
+  "editor.formatOnSave": true,
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp"
+  }
 }
